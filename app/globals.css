@@ -9,7 +9,7 @@
 }
 
 body {
-  @apply ibm-plex-serif-regular; /* Apply Regular weight to all text */
+  @apply poppins-regular; /* Apply Regular weight to all text */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -47,29 +47,42 @@ body {
   background: #7878a3;
 }
 
-.ibm-plex-serif-regular {
-  font-family: "IBM Plex Serif", serif;
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.ibm-plex-serif-medium {
-  font-family: "IBM Plex Serif", serif;
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
-.ibm-plex-serif-semibold {
-  font-family: "IBM Plex Serif", serif;
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
 
-.ibm-plex-serif-bold {
-  font-family: "IBM Plex Serif", serif;
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
 
 @layer utilities {
   .input-class {
