@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+body {
+  @apply ibm-plex-serif-regular; /* Apply Regular weight to all text */
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
@@ -41,6 +45,30 @@
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #7878a3;
+}
+
+.ibm-plex-serif-regular {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-serif-medium {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-serif-semibold {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-serif-bold {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 @layer utilities {
